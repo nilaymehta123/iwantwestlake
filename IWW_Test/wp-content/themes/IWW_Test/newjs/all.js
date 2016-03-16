@@ -1415,6 +1415,7 @@ var IWantWestlakeApi;
             WestlakeWebsiteService.Controllers.IWantWestlakeApi.ValidateAddress(address, function (result) {
                 if (result.errorField === "") {
                     console.log(result);
+                    addressValid();
                 }
                 else {
                     var g = new WestlakeWebsiteService.AddressValidationService.GeocodeAddress();
@@ -1428,6 +1429,9 @@ var IWantWestlakeApi;
                 }
             }, function (error) { });
         });
+        function addressValid() {
+            alert("Im here");
+        }
         //     var dealers = new function() {
         // 
         //         this.getNearestDealers = function(invoke_type, street, city, state, zip, lat, lng, call_type, async, triggerPanFlag) {
