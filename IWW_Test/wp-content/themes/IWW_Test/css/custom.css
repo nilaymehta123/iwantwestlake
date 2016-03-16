@@ -1,0 +1,731 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #fff !important;
+    line-height: 1;
+    font-size: 0.83em;
+    padding-top: 131px !important;
+    overflow-x: hidden;
+}
+.clearB {clear:both}
+#wrapper {overflow-x:visible!important}
+.main-nav-search {display:none}
+#header .avada-row {max-width:100%!important; position:relative}
+/*#header {padding:0; background:#e6e6e6 url('https://iwantwestlake.blob.core.windows.net/media/2014/12/iww-mainBanner.jpg') no-repeat; width:100%; height:auto; max-height:100%; background-size:cover; background-position:50% 95%}
+*/
+
+
+/* start Sticky Header */
+#header .avada-row, .sticky-shadow .avada-row {max-width:90%!important}
+.header-v1 {position:relative; z-index:99; height:155px}
+.mobile-nav-holder {display:none!important}
+/* prev/next */
+a.flex-prev.flex-disabled,  a.flex-next.flex-disabled {display:none!important}
+#nav ul .current_page_item a, #nav ul .current-menu-item a,
+#sticky-nav ul .current_page_item a, #sticky-nav ul .current-menu-item a
+{border:none}
+#header, #small-nav, body #header-sticky.sticky-header .sticky-shadow {
+background-color: rgba(4, 0, 0, 0.8)!important;
+background: rgba(4, 0, 0, 0.8)!important;
+color: rgba(4, 0, 0, 0.8)!important;
+
+}
+.nav-holder ul {display:block!important}
+
+.sticky-shadow .logo {padding-left:0%}
+#hdrNumber {float:right; margin-top:60px; max-height: 42px; max-width: 100%; width: 100%; height: 100%; font-size:30px; text-align:right; color:#fff; padding-top:40px; white-space:nowrap; font-weight:normal!important; font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+#hdrNumber span {font-weight:bold}
+
+body #header-sticky.sticky-header  #hdrNumber {float:right; margin-top:0px; padding-right:0%; max-height: 42px; max-width: 100%; width: 100%; height: 100%; font-size:21px; text-align:right; color:#fff; padding-top:35px; white-space:nowrap; font-weight:normal!important; font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+
+/* end Sticky Header */
+
+/* MainBanner */
+
+
+
+#main {padding:0!important; margin:0; background:#e6e6e6}
+#main .avada-row {max-width:100%;width: 100%;}
+.post-content{ background-color: rgba(128, 119, 119, 0.16); padding-top:44px;}
+#main .avada-row .post-content .avada-row {max-width: 1222px !important;width: 100%;}
+.fusion-fullwidth  {padding:0!important; background-color:transparent !important}
+.header-wrapper {width:100%}
+.avada-row{margin: 0 6%; background-color: #FFF;}
+#header-custom{position:absolute; top:0px; background-color:transparent!important; width:100%!important; padding:45px 20px 10px 20px!important; background:url('https://iwantwestlake.blob.core.windows.net/media/2014/12/iwantwestlakebgHeader.png') repeat; }
+#header-custom .avada-row {max-width:100%!important; height:100px}
+.wilshire-logo {float:left; margin-top:-5px; padding-left:10px;max-width: 275px; max-height: 94px;width: 100%; height: 100%; }
+/*Headings*/
+h1,h2,h3,h4,h5,h6{color:#8c2633 !important; font-family:inherit !important; }
+h2{color:#231f20 !important;font-size:1.65em !important}
+
+/*Form*/
+#home {color:#231f20;line-height: 26px; margin-top:0px}
+#home .avada-row, #thankyou-form .avada-row, #privacy-policy .avada-row 
+{background-color:#fff; border-top: 20px solid #bb2227 !important;}
+#home .avada-row .avada-row, #thankyou-form .avada-row .avada-row, #privacy-policy .avada-row .avada-row {border-top: 0 !important;}
+.fusion-fullwidth.fullwidth-box.form-wrap {margin: 0 11.7%;}
+img.wp-image-1520 {position: relative;top: -4px;margin-right: 10px;}
+
+#please-try-again-later .avada-row  {
+    background-color:#fff; border-top: 20px solid #bb2227 !important;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.addressValidationIndicator {
+	display: block;
+	position: absolute;
+	width: 100%; height:50px;
+	margin:0 auto;	
+	text-align:center;
+	top: 40px;
+	left:50%;
+	z-index:999;
+	line-height: 40px;
+	border:1px solid #898989 ;
+	background:#eee;
+	padding:5px;
+}
+.fldsDisabled {
+	background-color: #F0F0F0 !important;
+}
+#txt_buyer_referrer { display:none; margin-top:5px;}
+
+/*Tabs*/
+#form-tab .tab-pane { padding-left:0 !important;padding-right:0 !important;}
+#form-tab .nav, #form-tab .nav-tabs, #form-tab .tab-pane {border:none !important; border-color: transparent !important}
+#form-tab .active .tab-link{color: #bb2227 !important; }
+#form-tab .tab-link{	text-align:center; font-size: 32px; font-weight: bold;	color: #cecdce !important;	border: none !important; background-color:transparent !important; text-decoration: none;}
+#form-tab .tab-pane { padding-top:50px !important;}
+#form-tab .col1,#form-tab  .col2,#form-tab  .col3 /*, #cbx_agree */{height:70px!important;/*margin-left:74px;*/ width:100%;float:left;}
+#form-tab .col1 /*, #cbx_agree*/{max-width: 400px;/*margin-left:74px;*/}
+#form-tab .col1.a{margin-left:20px;}
+#form-tab .col1.b, #buyer-confirm {max-width: 800px;}
+#form-tab .col2 {max-width: 96px;}
+#form-tab .col2.a, #form-tab .col1.c{max-width: 190px;}
+#form-tab .col1.d {max-width: 430px;}
+#form-tab .col3 {max-width: 277px;}
+#form-tab label {display: block;z-index: 1;position: relative;font-size:14px;}
+#form-tab input, #form-tab  select { height:46px; font-size:14px; min-width:92px; border:2px solid #727070; width:100%; padding-left: 0.75em; padding-right: 0.75em; color:#231f20}
+#form-tab h2 {    
+	margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px !important;
+    line-height: 27px;
+    font-weight: normal;
+  }
+  .certificate {
+  	margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px !important;
+    line-height: 27px;
+    font-weight: normal;
+  }
+/*#form-tab ul.nav-tabs > li {border-right: 1px solid #cccccc;}*/
+#form-tab ul.nav-tabs > li  + li{border-right: 0;} 
+#form-tab ul.nav-tabs.nav-justified{text-align: center;}
+
+#lbl_yes, #lbl_no { display:inline !important; vertical-align:top; top:5px; padding-left:5px; }
+.custom-radio{
+width: 36px !important;
+height: 36px !important;
+display: inline-block;
+position: relative;
+z-index: 1;
+top: 3px;
+background: url(https://iwantwestlake.blob.core.windows.net/media/2014/12/iww-radio.png) no-repeat;
+}
+
+.custom-radio.selected{
+background: url(https://iwantwestlake.blob.core.windows.net/media/2014/12/iww-radio-selected.png) no-repeat;
+}
+.custom-radio input[type="radio"]{
+margin: 1px;
+position: absolute;
+z-index: 2;            
+cursor: pointer;
+outline: none;
+opacity: 0;
+/* CSS hacks for older browsers */
+_noFocusLine: expression(this.hideFocus=true); 
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+-khtml-opacity: 0;
+-moz-opacity: 0;
+}
+/*	
+#cbx_agree {visibility:hidden;width:0!important}
+.cbx_agree_unchecked, #cbx_agree + label { border-style:none !important; background: transparent url(https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-default.png) no-repeat;width: auto;min-height: 71px !important;display: block;padding-left: 40px}
+#cbx_agree:checked + label { border-style:none !important; background-image:url(https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-on.png);}
+.cbx_agree_checked {border:1px solid red!important; height:100px !important; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;opacity:100 !important; background-image:url(https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-on.png);}
+#cbx_agree.error + label {background-image:url(https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-off.png);}
+*/
+/***custom checkbox***/
+#cbx_agree_lbl { position: relative; top:-22px;} 
+.custom-checkbox{
+width: 46px; height: 46px;
+display: inline-block;
+position: relative;
+z-index: 1;
+top: 3px;
+background: url("https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-default.png") no-repeat;
+}
+
+.custom-checkbox.error{
+background: url("https://iwantwestlake.blob.core.windows.net/media/2015/02/checkbox-off.png") no-repeat;
+}
+.custom-checkbox.selected{
+background: url("https://iwantwestlake.blob.core.windows.net/media/2014/12/checkbox-on.png") no-repeat;
+}
+
+.custom-checkbox input[type="checkbox"]{
+margin: 0;
+position: absolute;
+z-index: 2;            
+cursor: pointer;
+outline: none;
+opacity: 0;
+/* CSS hacks for older browsers */
+_noFocusLine: expression(this.hideFocus=true); 
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+-khtml-opacity: 0;
+-moz-opacity: 0;
+}
+
+
+
+
+.errMsgSmall { font-size:small;}
+#form-tab .col1.c.i input , #form-tab .col2.a.i input{width: 100%;vertical-align: middle;margin-right: 10px;}
+#form-tab .col3 .a.i input{width: 100%;vertical-align: middle;margin-right: 10px;}
+.buyer_employment_yr , .buyer_employment_mo, .buyer_residence_yr, .buyer_residence_mo{top: 10px;display: inline;position: relative;}
+#form-tab .nav ul li.disabled{cursor:normal !important}
+
+/*ie10*/
+.ie9  #rb_buyer_co_applicant_yes + label, .ie9  #rb_buyer_co_applicant_no + label{ top:-20px; float:left; position:relative}
+
+/*ie11*/
+.ua-ie-11 #form-tab select,.ua-ie-10 #form-tab select  { padding:0; min-width:92px;}
+
+
+/*Error*/
+.error-unavailable {border: 1px solid #bb2227;background-color: #f8e8e9;color: #bb2227; padding: 3px 20px;text-align: center;font-style: italic;font-size: 1.3em;margin: 15px auto; width:50%; }
+.error-wrap {border: 1px solid #bb2227;background-color: #f8e8e9;color: #bb2227; padding: 20px;text-align: center;font-style: italic;font-size: 1.3em;margin-bottom: 50px;display:none; }
+.dob-error {display:none;float: none;font-size: 0.45em;font-style: normal;margin-left: 10px;padding: 10px; border: 1px solid #bb2227;background-color: #f8e8e9;color: #bb2227;}
+.address-warning { margin-top:5px;display:none;float: none;font-size: 14px;font-style: normal;margin-left: 10px;padding: 10px; border: 1px solid #CB7D11;background-color: #F8D6A6;color: #CB7D11;}
+#form-tab input.error, #form-tab  select.error{border-color: #bb2227;background-color: #f8e8e9; }
+#form-tab label.error{cursor:pointer;}
+
+/*Datetimepicker*/
+#ui-datepicker-div {border: 2px solid #727070;border-radius: 0;}
+.ui-datepicker .ui-datepicker-header {color:#000;}
+
+
+/*Custom Map*/
+#map-dealers-container{z-index: 50;width: 70%;text-align: center !important;margin: auto;position: relative;top:30px;}
+#map-dealers-wrapper{border-top:4px solid #bb2227;background:rgba(0,0,0,0.75);color:#fff;margin:0 auto;padding:5px; }
+.map-dealer{width:31%;float:left;text-align:left;margin-left:15px;margin-top:23px}
+.map-dealers-disclaimer{color:#333;text-align:left;font-size:13px; padding-top:10px}
+.map-dealers-title{font-size:30px;margin-top:10px}.map-dealers-list{width:100%;font-size:13px;margin-top:7px}
+.map-dealer a, .map-dealer a:hover { color:#FFF; text-decoration:none; outline:none;}
+.map-dealers-disclaimer a.map-disclaimer, .map-dealers-disclaimer a.map-disclaimer:hover{color: #989797;text-decoration: underline;}
+.clear-float{ clear:both}
+.modal-map { 
+display: none;
+position: absolute;
+top: 0px;
+left:0px;
+z-index: 99999px;
+background: rgb(58, 57, 55);
+width:100%;
+height:100%;
+min-height:165px;
+}
+.modal-map img { margin: 0% auto !important;}
+.modal-map span { display:block; position:absolute; color:#000; width:100%; top:85px; }
+#gsite_map {position:initial; margin: 0 7%; }
+#map-dealers-container{
+width:75% !important;
+position:absolute;
+margin-left:12%;
+margin-right:12%	
+}
+.clear-float{	clear:both}
+#main div#contact .avada-row {max-width:100%!important; max-width:100%!important}
+
+
+/*Submit*/
+#submit-container{	text-align:center !important;	width:100%;float:none !important;	margin-bottom:10px;}
+
+.submit-button{	cursor:pointer;	background:#BB2227;	color:#fff;	font-size:18px;	margin:0 auto;	border-radius:4px;	text-align:center;	width:25%; 	height:43px; line-height:38px;}
+
+.submit-text{text-align: left;
+    /*margin: 0 auto;
+    width: 80%;*/
+    font-size: 13px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 100px !important;}
+
+/* contact */
+#contactDiv {padding-top:20px; padding-bottom:20px; margin:0 auto; max-width:940px}
+#contactDiv ul li { list-style-type:none; font-size:18px; }
+#contactDiv .lblFnt {font-size:16px;}
+#contactDiv .numberFnt {font-weight:bold;}
+#contactDiv .emailFnt { color:#C3353D; font-weight:600; font-size:16px;}
+#contactDiv .titleFnt { font-size:18px; font-weight:600;}
+#contactDiv .lblSpanFnt { display: inline-block; width:170px; height:auto; font-size:16px;}
+#contactDiv .bLblFnt {font-weight:600;}
+#contactDiv .adjLeftBgScrn {padding-left:15%;}
+.contactBanner img { width:100%;}
+
+/*Footer*/
+#footer-custom {width:100%!important;}
+#footer-custom .avada-row .imageframe-align-center {width:100%!important}
+#footer-custom .motorcylceWrapper {padding:30px 0}
+.fusion-fullwidth.fullwidth-box.footer-bottom {background:#29292a!important; text-align:center; height:45px; vertical-align:middle; color:#fff; line-height:42px}
+#main .avada-row .post-content #footer-custom .avada-row {width: 100%;max-width:none !important;}
+#toTop:hover {background:#bb2227}
+#map-dealers-container{width:75% !important;position:absolute;margin-left:12%;margin-right:12%}
+
+.fusion-fullwidth.fullwidth-box.footer-bottom .avada-row {padding:0 20px}
+.fusion-fullwidth.fullwidth-box.footer-bottom {height:40px} 
+.fusion-fullwidth.fullwidth-box.footer-bottom span{width:auto; display:inline; margin:0}
+.fusion-fullwidth.fullwidth-box.footer-bottom span + span {display:inline}
+.fusion-fullwidth.fullwidth-box.footer-bottom span + span + span {width:auto; display:inline}
+
+.footer-bottom1{
+    background: #29292a !important;
+    text-align: center;
+    height: 45px;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 42px;
+}
+}
+
+/*Thank you*/
+#thankyou-form .pdfContainer {text-align:center; margin:30px 0; width:100%; font-size:14px; position:relative;z-index:1;overflow:hidden; display:none !important;}
+#thankyou-form .pdfLink { padding:10px 0 30px 0}
+#thankyou-form .pdfLink span { margin:0 10px; }
+#thankyou-form .pdfLink2 {line-height:32px; }
+#thankyou-form .pdfLink2 div {float:left; display:block}
+#thankyou-form a, #thankyou-form a:hover {color:#bb2227; text-decoration:underline; cursor:pointer}
+#pdfEmbed { width:95%; border:0; max-height: none;height: 680px; overflow:hidden!important;position:relative;z-index:1; bottom:0;top:0}
+#ifrOverlayIe{height:70px!important}
+#thankyou-form img.dlPdfIcon { width:180px; }
+
+/*Privacy Policy*/
+#privacy-policy .privacycontent {line-height:26px}
+#privacy-policy ul li {list-style-type:disc; color:#bb2227; line-height:26px; font-size:20px; padding:5px;}
+#privacy-policy ul li span {color:#231f20; font-size:14px; position:relative; top:-2px}
+#privacy-policy .heading {font-weight: bold; font-size:16px; margin-bottom:10px}
+#privacy-policy .txtRedUnderline, #privacy-policy a, #privacy-policy a:hover {color:#bb2227; text-decoration:underline}
+
+/*ff compatible*/
+#wrapper .fusion-tabs .nav-tabs.nav-justified > li {
+display: inline-block !important; width:50% !important}
+
+.formWrap {width:86%; margin: 0 auto;}
+
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth {
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+.one_half, .one_fourth {margin-right:2%; /* left: 74px;*/}
+
+.one_fourth {width:23.4%}
+
+.one_half{  
+  width: 49%;
+  /* Original Value width: 48% */
+}
+
+.col1 label{
+	  font-size: 14px;
+	  line-height: normal;
+	  font-weight: 300;
+}
+
+.one_half label{  
+  font-size: 14px;
+}
+
+.one_third {
+  width: 30.6666%;
+}
+.two_third {
+  width: 65.3332%;
+}
+.one_fourth {
+  width: 23%;
+}
+.three_fourth {
+  width: 74%;
+}
+ .last {
+  margin-right: 0px;
+}
+#form-tab img.ui-datepicker-trigger {position:absolute; right:16px; top:36px}
+/*input#cbx_agree {width:auto!important; height:auto!important}*/
+#wrapper .post-content h2 {font-size:30px!important}
+#comment-input {overflow:visible}
+input#cbx_agree {width:26px!important; height:24px!important}
+.turndowncontent {
+    padding: 0 40px 30px 40px !important;
+    text-align:center;
+}
+
+/*Style for Mobile*/
+/*
+@media - size of window;
+@media screen - a device with a screen and a window;
+@media only screen - will prevent those styles in IE6-8;
+*/
+
+
+
+@media (max-width: 1240px) {
+/* MainBanner */
+.mainBanner {background-position:83% 50%}
+}
+
+@media (max-width: 1230px) {
+	.fusion-fullwidth.fullwidth-box.form-wrap {margin: 0 4%;}
+	#pdfEmbed {height: 680px;max-height: none;}
+}
+
+@media (max-width: 1222px){
+	.ie8 #pdfEmbed {height: 760px !important;}
+}
+
+@media (max-width: 1180px){
+	#pdfEmbed, .ie8 #pdfEmbed  {height: 658px;}
+}
+
+@media (max-width: 1144px) {
+	.fusion-fullwidth.fullwidth-box.form-wrap {margin: 0 4%;}
+	#pdfEmbed, .ie8 #pdfEmbed   {max-height: none;height: 630px;}
+}
+
+@media (max-width: 1100px){
+	#pdfEmbed, .ie8 #pdfEmbed  {height: 610px;max-height:none}
+}
+
+@media (max-width: 1048px){
+	#pdfEmbed, .ie8 #pdfEmbed {height: 585px;}
+}
+
+@media (max-width: 1000px){
+	#pdfEmbed, .ie8 #pdfEmbed {height: 555px;}
+}
+
+@media (max-width: 960px) {
+	.ui-datepicker-trigger { top:-35px !important; right:9% !important;}
+	#form-tab  .col1, #buyer-confirm {max-width: initial;margin-left:0px; margin-right:0px}
+	#form-tab input, #form-tab select {width: 90%;}
+	#form-tab .col1.b{max-width: initial;}
+	#form-tab .col1.c{margin-right:100px;}
+	.wilshire-logo {float: left;margin-top: -5px;padding-left: 10px;max-width: 100%;max-height: 64px;
+	width: 100%; height: 100%; text-align:center}
+	#header-custom {padding:10px 0 10px 0!important; height:145px}
+
+	/*footer*/
+	.fusion-fullwidth.fullwidth-box.footer-bottom .avada-row {padding:5px 10px}
+	.fusion-fullwidth.fullwidth-box.footer-bottom {height:auto; line-height:25px} 
+	.fusion-fullwidth.fullwidth-box.footer-bottom span{width:100%; display:block; margin:0}
+	.fusion-fullwidth.fullwidth-box.footer-bottom span + span {display:none}
+	.fusion-fullwidth.fullwidth-box.footer-bottom span + span + span {width:100%; display:block; white-space:pre-wrap}
+	.col2.radio-style {margin-top:-8px}
+	.one_half, .one_fourth {margin-right:2%}
+	.formWrap {width:98%!important; margin:0 auto}	
+	#form-tab input, #form-tab select {width:95%}	
+	#form-tab .col2 {max-width:100px!important}
+	.one_fourth {width:23.4%;}
+	.one_fourth {margin-right:1%}
+	.one_half {margin-right:0%}
+	.one_half {width:49%; margin-bottom:10px}
+		
+	#pdfEmbed, .ie8 #pdfEmbed {height: 525px;}
+}
+
+@media (max-width: 870px) {
+	/* start Sticky Header */
+	#header {height:150px}
+	.logo {padding-left:0%; text-align:center; width:100%; margin:5px 0!important}
+	.sticky-shadow .logo {padding-left:0%}
+	#hdrNumber {float:none; margin-top:10px; padding-bottom:40px!important; padding-right:0; max-height: 42px; max-width: 100%; width: 100%; height: 100%; font-size:21px; text-align:center!important;  padding-top:0px; white-space:normal; margin:0 auto }
+	#hdrNumber span {font-weight:bold}
+
+	body #header-sticky.sticky-header  #hdrNumber {float:right; margin-top:-40px; padding-right:0%; max-height: auto; max-width: 50%; width: 50%; height: auto; font-size:18px; text-align:right!important; color:#fff; white-space:nowrap; padding-top:12px }
+	.hdrClear {clear:both; width:100%}
+	body #header-sticky.sticky-header .logo {margin-top:-2px!important}
+	/* end Sticky Header */
+	nav#nav, nav#sticky-nav {float:none}
+
+	/* MainBanner */
+	.mainBanner {background-position:83% 50%;}
+}
+
+@media (max-width: 800px) {
+	#form-tab .col2.a, #form-tab .col1.c {max-width: initial;margin-left: 20px;margin-right: 20px;}
+	.wilshire-logo {float: left;margin-top: -5px;padding-left: 10px;max-width: 100%;max-height: 64px;
+	width: 100%; height: 100%; text-align:center}
+	#header-custom {padding:10px 0 10px 0!important; height:145px}
+	#header {background-position: 77% 50%!important}
+	/* MainBanner */
+	.mainBanner {background-position:83% 50%; margin-top:-155px!important}
+}
+
+@media (max-width: 780px){
+	#pdfEmbed, .ie8 #pdfEmbed {height: 470px;}
+}
+
+@media (max-width: 768px) {
+	/* Header */
+	#header-custom{position:absolute; top:0px; background-color:transparent!important; width:100%!important }
+	#header-custom .avada-row {max-width:100%!important}
+	#wrapper{overflow:hidden}
+
+	/*footer*/
+	.fusion-fullwidth.fullwidth-box.footer-bottom {height:auto} 
+	.post-content h1 {line-height: 46px;}
+	.col2.radio-style {width: 25%!important; margin-top: 15px; }
+	.col1.d.vehicle_make {height:30px!important}
+	.map-dealer {width:30%}
+}
+
+@media (max-width: 767px) {
+	#form-tab ul.nav-tabs > li { border-right-color:#fff}
+	.buyer_employment_yr, .buyer_employment_mo, .buyer_residence_yr, .buyer_residence_mo {top:-8px!important}
+	#form-tab .col2 {max-width: 335px}
+	.col2.radio-style {width: 18%!important; float: left!important; height: 68px!important}
+	.submit-button {margin-top:10px}
+	.post-content h1 {line-height: 46px;}
+	.col2.radio-style {width: 25%!important; margin-top: 15px}
+	.col1.d.vehicle_make {height:auto!important}
+	.map-dealer {width:30%}
+}
+
+@media (max-width: 701px){
+	.ua-ie #thankyou-form #Iframe1 {height: 100px !important;}
+}
+
+@media (max-width: 685px){
+	/* start Sticky Header */
+	#hdrNumber {float:none; margin-top:10px; padding-bottom:20px; padding-right:0; max-height: 42px; max-width: 100%; width: 100%; height: 100%; font-size:16px; text-align:center!important;  padding-top:0px; white-space:normal; margin:0 auto }
+	#hdrNumber span {font-weight:bold}
+
+	body #header-sticky.sticky-header .logo {width:100%}
+	.sticky-shadow {height:100px!important}
+	body #header-sticky.sticky-header #hdrNumber {float:none; margin-top:0px; padding-right:0%; max-height: auto; max-width: 100%; width: 100%; height: auto; font-size:14px; text-align:center!important; color:#fff; padding-top:10px; padding-bottom:20px; white-space:nowrap; font-weight:normal!important; font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;}
+	.hdrClear {clear:both; width:100%}
+
+	.hdrClear {clear:both; width:100%}
+
+	/* end Sticky Header */
+	nav#nav, nav#sticky-nav {float:none}
+
+	/* MainBanner */
+	.mainBanner {background-position:76% 50%; margin-top:-155px!important}
+
+	#ifrOverlayIe { width:100%; left:0px;}
+}
+
+@media (max-width: 670px){
+	#pdfEmbed, .ie8 #pdfEmbed {height: 310px !important;}
+}
+
+@media (max-width: 600px) {
+	.wilshire-logo {float: left;margin-top: -5px;padding-left: 10px;max-width: 100%;max-height: 64px;
+	width: 100%; height: 95%; text-align:center}
+	/*footer*/
+	.fusion-fullwidth.fullwidth-box.footer-bottom {height:auto; display:block} 
+	.map-dealer {width:93%}
+	.col2.radio-style {width: 25%!important; float: left!important; height: 68px!important}
+	#form-tab .tab-link {font-size:25px}
+	#form-tab .col1.c.i input, #form-tab .col2.a.i input {width:68%}
+	#form-tab .col2 {max-width:100%}
+	.post-content h1 {font-size:18px !important;}
+	.buyer_employment_yr, .buyer_employment_mo, .buyer_residence_yr, .buyer_residence_mo {top:-8px!important}
+	.col1.d.vehicle_make {height:60px!important}
+	/*#cbx_agree + label {margin-left:0px!important}*/
+	/*#cbx_agree {height:10px; width:10px}*/
+	.map-dealers-title {font-size: 22px; margin-top: 15px}
+	.submit-button {margin-top:0}
+	.col2.radio-style {width: 25%!important; margin-top: 15px}
+}
+
+@media (max-width: 360px){
+	.col2.radio-style {width: 26%!important; float: left!important; height: 100px!important}
+	.col1.d.vehicle_make {height:90px!important}
+	#contactDiv  ul{ padding-left:10px;}
+
+	.address-warning { height:auto; font-size: 12px; margin-left:0px; margin-top:10px;}
+}
+
+@media (max-width: 320px) {
+	#form-tab .col1.b {max-width: 280px;}
+	a#buyer, a#co-buyer {font-size:25px!important}
+	.buyer_residence_yr {position:relative; top:-2px}
+	
+	.map-dealer {width:100%}
+	.col2.radio-style {width: 25%!important; float: left!important; height: 68px!important}
+	.buyer_employment_yr, .buyer_employment_mo, .buyer_residence_yr, .buyer_residence_mo {top:-8px!important}
+	.col1.d.vehicle_make {height:60px!important}
+	
+	.submit-button {margin-top:10px}
+	.map-dealers-title {font-size: 22px; margin-top: 15px}
+
+	#contactDiv .lblSpanFnt { width:155px; font-size:15px;}
+	#contactDiv  ul{ padding-left:5px;}
+	#contactDiv { padding-top:0px; padding-bottom:5px; }
+	.formWrap label {white-space:normal!important}
+	.radio-style.col2 {width:35%!important}
+	.map-dealers-title {font-size:22px!important}
+	.map-dealer {width:93%!important}
+	#contactDiv .adjLeftBgScrn, .ie8 .businessHours {padding-left:4%!important}
+	.adjLeftBgScrn ul, .ie8 .businessHours ul {padding-left:0!important}
+	#contactDiv .emailFnt, .businessHours li, .lblSpanFnt, #contactDiv .lblFnt {font-size:13px!important}
+	.one_fourth {margin-bottom:0!important}
+	.lblSpanFnt {width:150px!important}
+	img.wp-image-1520.size-full.alignnone {width:30px!important; height:30px!important}
+	img.wp-image-1520 {position:relative!important; top:0px!important; margin-right:10px!important}
+	.one_half, .one_fourth {width:100%}
+	#wrapper .post-content h2 {font-size:18px!important}
+	.col2.radio-style {width:30%!important}
+	.ui-datepicker-trigger {top:-54px !important}
+
+	.address-warning { height:auto; font-size: 12px;}
+}
+
+@media screen and (min-width:320px) and (max-width: 840px) {
+.col1.d.vehicle_make { max-width:100% !important;height:30px!important; }
+.formWrap {width:98%!important; margin:0 auto}	
+img.alignnone.size-full.wp-image-1520 {width: 30px;height: 30px;}	
+img.wp-image-1520 {top:1px}
+#form-tab input, #form-tab select {width:100%}	
+#form-tab .col2 {max-width:100px!important}
+.one_fourth {width:100%;}
+.one_fourth {margin-right:0%; margin-bottom:5px}
+.one_half {margin-right:0%; margin-bottom:5px}
+.one_half {width:100%}
+.col2.radio-style {margin-left:0!important; margin-top:0!important}
+.ui-datepicker-trigger { right:3% !important;}
+/*input#cbx_agree {height:0px!important}*/
+#wrapper .post-content h2 {font-size:18px!important}
+.sep-none{margin:10px 0 20px 0!important}
+#form-tab .tab-pane {padding-top:10px!important}
+#contactDiv .lblFnt, #contactDiv .emailFnt, #contactDiv .titleFnt, .bLblFnt, .lblSpanFnt, #contactDiv ul li {font-size:14px!important}
+#contactDiv{padding-left: 20% !important;}
+#contactDiv h1{padding-left: 0% !important;}
+.body-wrap{width: 100%;}
+.body-text{line-height: 46px;font-size: 18px;}
+.bcontainer{margin: 0 4%;}
+   #cbx_agree_lbl{ top: -15px;
+    display: inline;}
+#form-tab h2{font-size: 18px !important;}
+.nav-tabs.nav-justified>li{display: inline-block; width: 50%;}
+.businessHours ul{padding-left: 0% !important;}
+    /*.navbar .right-column-left-bottom p{
+    font-size: 30px !important;
+    color: white;
+    white-space: nowrap;
+    font-weight: normal!important;
+}*/
+#contactDiv .adjLeftBgScrn { padding-left:0% !important; }
+  .addressValidationIndicator { left:0%; }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+#contactDiv .lblFnt{
+  font-size: 12px!important;
+}
+#contactDiv {
+  padding-left: 8% !important;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.body-wrap{width: 100%;}
+ 
+}
+
+@media screen and (min-width: 751px) and (max-width: 854px){
+.col1.d.vehicle_make {height:60px!important;}
+#contactDiv .adjLeftBgScrn {padding-left:8%; margin-right:1%!important}
+}
+
+@media screen and (min-width: 850px){
+#contactDiv .adjLeftBgScrn {padding-left:8%; margin-right:1%!important}
+.businessHours ul {padding-left:8%}
+}
+
+@media only screen and (min-width: 800px){
+	.header-wrapper, .header-filler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	}
+}
+
+@media screen and (min-width: 920px){
+#contactDiv .adjLeftBgScrn {padding-left:10%; margin-right:1%!important}
+.businessHours ul {padding-left:0}
+}
+
+@media screen and (min-width: 1024px) {
+#contactDiv .adjLeftBgScrn {padding-left:11%;}
+}
+
+@media screen and (min-width: 1120px){
+#contactDiv .adjLeftBgScrn {padding-left:7%; margin-right:1%!important;margin-bottom:46px;}
+.businessHours ul {padding-left:0}
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px){
+#ifrOverlayIe { width:100%; left:0px;}
+}
+
+@media screen and (min-width: 361px) and (max-width: 480px){
+#ifrOverlayIe { width:100%; left:0px;}
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+#ifrOverlayIe { width:100%; left:0px;}
+}
+
+
+
+@media screen and (min-width:320px) and (max-width: 976px) { /* - ame base+ 16 (vertical bar)?? */
+	#form-tab .col1.c.i , #form-tab .col2.a  { max-width:43% !important; margin-right:0% !important;}
+	#form-tab .col2.a.i select, #form-tab .col1.c.i select, #form-tab .col1.c.i input, #form-tab .col2.a input{ width:100% !important;}
+	#form-tab .col2.a { margin-left:4% !important;}
+	#form-tab  .col1  {max-width:100%;} /*IE*/
+	.lblLongSpan { width:300px; }
+	#form-tab img.ui-datepicker-trigger { top:38px!important}
+}
+
+
+/*ipad portrait and landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	#map-dealers-container{width:76% !important;}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+	#map-dealers-container{width:76% !important;}
+}
+

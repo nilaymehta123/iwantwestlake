@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": false
+    },
+    "exclude":[
+        "wp-content//plugins//wpide"
+    ]
+}

@@ -1,0 +1,1 @@
+var IWantWestlakeApi;!function(e){$(function(){WestlakeWebsiteService.Controllers.IWantWestlakeApi.GetVehicleYears(function(e){null!=e&&null==e.Errors&&e.Years.forEach(function(e){return $("<option>").val(e).text(e).appendTo("#sel_buyer_vehicle_year")})},function(e){})})}(IWantWestlakeApi||(IWantWestlakeApi={}));

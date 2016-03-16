@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+#nowcom_logger_details_question, #nowcom_logger_details_answer{
+  width: 100%;
+}
+#nowcom-logger-admin-tabs .file-list-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+
+#nowcom-logger-admin-tabs .file-list-wrapper a:hover {
+    background-color: yellow;
+}

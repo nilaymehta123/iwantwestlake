@@ -1,0 +1,8 @@
+local_folder_name=iwantwestlake
+local_file_suffix=Local
+filename_prefix=iwantwestlake
+database_name=iwantwestlake
+local_port=9020
+public_https=http
+public_host=www.iwantwestlake.com
+ps_host=iwantwestlake.nowcomwebsites.net
