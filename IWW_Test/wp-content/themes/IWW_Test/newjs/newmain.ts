@@ -68,7 +68,7 @@ module IWantWestlakeApi {
             WestlakeWebsiteService.Controllers.IWantWestlakeApi.ValidateAddress(address, (result) => {
                 if (result.errorField === "") {
                     console.log(result);
-                    
+                    addressValid();
                     
                 }
                 else {
@@ -88,6 +88,42 @@ module IWantWestlakeApi {
 
 
         });
+var type = "";
+var data = new WestlakeWebsiteService.AddressValidationService.GeocodeAddress();
+
+function addressValid(){
+ jQuery('#txt_'+type+'buyer_address').attr('data-status', 'valid');
+	jQuery('#txt_'+type+'buyer_address').attr('data-status-msg', data.msg);
+	jQuery('#txt_'+type+'buyer_address,	#txt_'+type+'buyer_city, #sel_'+type+'buyer_state, #txt_'+type+'buyer_zip').removeClass('error');
+	
+	if( data.msg.toLowerCase() != 'service unavailable' ){
+		//auto-correct
+		jQuery('#txt_buyer_address,	#txt_buyer_city, #sel_buyer_state, #txt_buyer_zip')
+		jQuery('#txt_buyer_address').val(data.Street);
+		jQuery('#txt_buyer_city').val(data.City);
+		jQuery('#txt_buyer_zip').val(data.Zip);
+		jQuery('#sel_buyer_state').val(data.State);
+	
+		jQuery('#txt_buyer_address').attr('validate-address', data.Street);
+		jQuery('#txt_buyer_address').attr('validate-city', data.City);
+		jQuery('#txt_buyer_address').attr('validate-state', data.State);
+		jQuery('#txt_buyer_address').attr('validate-zip', data.Zip);
+	
+		if (data.msg!='') {
+			if(!jQuery('#comment-input h2').eq(1).find('span').hasClass('address-warning')){
+				jQuery('#comment-input h2').eq(1).append("<span class='address-warning' style='display:block !important;width:100%;'>"+data.msg+". You can choose to ignore this message and continue with your submission.</span>");
+			} else {
+				jQuery('.address-warning').html(data.msg + '. You can choose to ignore this message and continue with your submission.' );
+				jQuery('.address-warning').attr('style', 'display:block !important;width:92%;');
+			}	
+		} else {
+			jQuery('.address-warning').remove();
+		}		
+	} else {	
+		jQuery('#comment-input h2').eq(1).find('.address-warning').remove();
+	}
+	jQuery('.dob-error').remove();
+}
 
         //     var dealers = new function() {
         // 
